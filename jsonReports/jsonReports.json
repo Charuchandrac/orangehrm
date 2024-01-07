@@ -1,0 +1,182 @@
+{
+  "config": {
+    "configFile": "/Users/charuchandrac/Documents/AutomationPractice/10_OrangeHRM/playwright.config.ts",
+    "rootDir": "/Users/charuchandrac/Documents/AutomationPractice/10_OrangeHRM/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 2
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "line",
+        null
+      ],
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReports.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/charuchandrac/Documents/AutomationPractice/10_OrangeHRM/test-results",
+        "repeatEach": 1,
+        "retries": 2,
+        "id": "",
+        "name": "",
+        "testDir": "/Users/charuchandrac/Documents/AutomationPractice/10_OrangeHRM/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.40.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "ValidateDashboardCases.spec.ts",
+      "file": "ValidateDashboardCases.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Validate Dashboard",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 12380,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T17:34:39.517Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/charuchandrac/Documents/AutomationPractice/10_OrangeHRM/test-results/ValidateDashboardCases-Validate-Dashboard/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/charuchandrac/Documents/AutomationPractice/10_OrangeHRM/test-results/ValidateDashboardCases-Validate-Dashboard/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d31a853153a6471ddfe5-95f37155f761b35311c6",
+          "file": "ValidateDashboardCases.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "ValidateLoginCases.spec.ts",
+      "file": "ValidateLoginCases.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Login Cases - Validate successful Login",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 13923,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-01-06T17:34:39.518Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/Users/charuchandrac/Documents/AutomationPractice/10_OrangeHRM/test-results/ValidateLoginCases-Login-Cases---Validate-successful-Login/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/Users/charuchandrac/Documents/AutomationPractice/10_OrangeHRM/test-results/ValidateLoginCases-Login-Cases---Validate-successful-Login/video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3fc676e3199971e2312d-4446e5400ecdf082df15",
+          "file": "ValidateLoginCases.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-01-06T17:34:39.127Z",
+    "duration": 14849.297,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
